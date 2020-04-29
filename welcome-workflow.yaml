@@ -60,7 +60,7 @@ spec:
         template: z-transformation
         arguments:
           parameters:
-          - resources: [z-transform]
+          - resources: [ztransform]
           artifacts:
           - name: message
            # This template takes in the output artifact from the `welcome` template. 
