@@ -11,7 +11,7 @@ def welcome():
     message = "Welcome to Orquestra!"
 
     message_dict = {}
-    message_dict["message"] = calc_vals(a,b)
+    message_dict["message"] = str(calc_vals(a,b))
     message_dict["schema"] = "message"
 
     with open("welcome.json",'w') as f:
